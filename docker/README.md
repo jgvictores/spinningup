@@ -7,7 +7,7 @@ I've written a basic dockerfile with the requirements stated so far (is capable 
 In order to work with it, simply build the image:
 
 ```bash
-sudo docker build -t spinningup .
+docker build -t spinningup -f ./docker/Dockerfile .
 ```
 
 Adjust the permissions of xhost:

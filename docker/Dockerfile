@@ -15,4 +15,5 @@ COPY . /spinningup/
 WORKDIR /spinningup/
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install tensorflow==1.8
+RUN python3 -m pip install torch==1.3.1
 RUN python3 -m pip install -e .
